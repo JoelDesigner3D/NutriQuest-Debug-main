@@ -18,6 +18,11 @@ public class FoodCollectible : MonoBehaviour, ICollect
     public void Collect()
     {
         _scoreEffect.Execute();
+        HideGameObject();
+    }
+
+    public void HideGameObject()
+    {
         gameObject.SetActive(false);
     }
 }

@@ -9475,7 +9475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056265917493319838, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_Height
-      value: 1.9083009
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2056265917493319838, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_Enabled
@@ -9483,11 +9483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056265917493319838, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_Center.y
-      value: 1.8765371
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3027444774220466944, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4258892974171816214, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_Enabled
@@ -9515,7 +9515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4839810228637035066, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5068584207528892769, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_RootOrder
@@ -9565,9 +9565,13 @@ PrefabInstance:
       propertyPath: _groundLayer.m_Bits
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6621212581942297219, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6677047999597992964, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7469665524954624571, guid: 374bfb61e2498ee12a9e8a0fafec16b2, type: 3}
       propertyPath: m_UseGravity

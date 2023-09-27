@@ -7,6 +7,8 @@ using UnityEngine.TestTools;
 
 public class SceneTests
 {
+
+
     [SetUp]
     public void Setup()
     {
@@ -33,7 +35,16 @@ public class SceneTests
         Assert.AreEqual(tagName, "Player");
     }
 
-    
+
+    [Test]
+    public void VerifyPlayerPosition()
+    {
+        var player = GameObject.Find("Player");
+
+        Assert.AreEqual(new Vector3(0, 0, 0), player.transform.position);
+    }
+
+
 
     [Test]
     public void VerifyFoods()

@@ -5,7 +5,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "TNRD.SerializableInterface",
-        "TNRD.SerializableInterface.Editor"
+        "TNRD.SerializableInterface.Editor",
+        "Scripts"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
