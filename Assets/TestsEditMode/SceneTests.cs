@@ -5,7 +5,7 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class GroudInGroundLayoutTest
+public class SceneTests
 {
     [SetUp]
     public void Setup()
@@ -14,14 +14,37 @@ public class GroudInGroundLayoutTest
     }
 
     [Test]
-    public void VerifyLayout()
+    public void VerifyGroundLayout()
     {
         var gameObject = GameObject.Find("Ground");
         string layerName = LayerMask.LayerToName(gameObject.layer);
 
-        //Assert.That(gameObject, Is.Not.Null);
         Assert.AreEqual(layerName, "Ground");
     }
+
+    [Test]
+    public void VerifyPlayerTag()
+    {
+        var gameObject = GameObject.Find("Player");
+        string tagName = gameObject.tag;
+
+        Assert.That(gameObject, Is.Not.Null);
+
+        Assert.AreEqual(tagName, "Player");
+    }
+
+    
+
+    [Test]
+    public void VerifyFoods()
+    {
+        // Trouver tous les GameObjects ayant un script "FoodCollectible"
+        FoodCollectible[] components = FoodCollectible.FindObjectsOfType<FoodCollectible>();
+
+        Assert.IsNotEmpty(components);
+
+    }
+    
 
     [TearDown]
     public void Teardown()

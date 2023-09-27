@@ -4,10 +4,10 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class GravityValueTest
+public class SettingsTests
 {
     [Test]
-    public void GravityValueTestSimplePasses()
+    public void VerifyGravityValue()
     {
 
       Assert.AreEqual(Physics.gravity,  new Vector3(0, -9.81f, 0) );
