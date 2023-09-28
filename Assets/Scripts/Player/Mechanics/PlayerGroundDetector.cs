@@ -17,7 +17,7 @@ public class PlayerGroundDetector : MonoBehaviour, IGrounded
     [SerializeField] private PlayerAnimations _animations;
 
     // Properties for the interfaces
-    public bool Grounded { get; private set; }
+    public bool Grounded { get; set; }
 
     public event Action OnGrounded;
 
