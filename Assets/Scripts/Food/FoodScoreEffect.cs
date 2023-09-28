@@ -23,4 +23,11 @@ public class FoodScoreEffect : MonoBehaviour, IExecute
         // Add score
         _scoreAdd.Add(_scoreValue);
     }
+
+
+    public void Execute(int scoreValue)
+    {
+        _scoreValue = scoreValue;
+        Execute();
+    } 
 }

@@ -6,7 +6,8 @@
         "UnityEditor.TestRunner",
         "TNRD.SerializableInterface",
         "TNRD.SerializableInterface.Editor",
-        "Scripts"
+        "Scripts",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
